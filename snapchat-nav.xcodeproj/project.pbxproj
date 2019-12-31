@@ -13,6 +13,9 @@
 		E2A222DF23BBD75900FBC79A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2A222DD23BBD75900FBC79A /* Main.storyboard */; };
 		E2A222E123BBD75900FBC79A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2A222E023BBD75900FBC79A /* Assets.xcassets */; };
 		E2A222E423BBD75900FBC79A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2A222E223BBD75900FBC79A /* LaunchScreen.storyboard */; };
+		E2AD7FC923BBDC8900B997C9 /* RightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AD7FC823BBDC8900B997C9 /* RightViewController.swift */; };
+		E2AD7FCB23BBDC9100B997C9 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AD7FCA23BBDC9100B997C9 /* LeftViewController.swift */; };
+		E2AD7FCD23BBDD9F00B997C9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AD7FCC23BBDD9F00B997C9 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		E2A222E023BBD75900FBC79A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2A222E323BBD75900FBC79A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2A222E523BBD75900FBC79A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2AD7FC823BBDC8900B997C9 /* RightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightViewController.swift; sourceTree = "<group>"; };
+		E2AD7FCA23BBDC9100B997C9 /* LeftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		E2AD7FCC23BBDD9F00B997C9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,26 @@
 		E2A222D623BBD75800FBC79A /* snapchat-nav */ = {
 			isa = PBXGroup;
 			children = (
+				E2A222EB23BBD76F00FBC79A /* Pages */,
 				E2A222D723BBD75800FBC79A /* AppDelegate.swift */,
 				E2A222D923BBD75800FBC79A /* SceneDelegate.swift */,
-				E2A222DB23BBD75800FBC79A /* ViewController.swift */,
 				E2A222DD23BBD75900FBC79A /* Main.storyboard */,
 				E2A222E023BBD75900FBC79A /* Assets.xcassets */,
 				E2A222E223BBD75900FBC79A /* LaunchScreen.storyboard */,
 				E2A222E523BBD75900FBC79A /* Info.plist */,
 			);
 			path = "snapchat-nav";
+			sourceTree = "<group>";
+		};
+		E2A222EB23BBD76F00FBC79A /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				E2A222DB23BBD75800FBC79A /* ViewController.swift */,
+				E2AD7FC823BBDC8900B997C9 /* RightViewController.swift */,
+				E2AD7FCA23BBDC9100B997C9 /* LeftViewController.swift */,
+				E2AD7FCC23BBDD9F00B997C9 /* HomeViewController.swift */,
+			);
+			path = Pages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +156,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2A222DC23BBD75800FBC79A /* ViewController.swift in Sources */,
+				E2AD7FC923BBDC8900B997C9 /* RightViewController.swift in Sources */,
 				E2A222D823BBD75800FBC79A /* AppDelegate.swift in Sources */,
+				E2AD7FCB23BBDC9100B997C9 /* LeftViewController.swift in Sources */,
 				E2A222DA23BBD75800FBC79A /* SceneDelegate.swift in Sources */,
+				E2AD7FCD23BBDD9F00B997C9 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

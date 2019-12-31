@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  LeftViewController.swift
 //  snapchat-nav
 //
 //  Created by Tom Rochat on 31/12/2019.
@@ -8,13 +8,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+final class LeftViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view.backgroundColor = UIColor(red: 46 / 255, green: 139 / 255, blue: 222 / 255, alpha: 1)
     }
-
-
 }
-
